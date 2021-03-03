@@ -1,0 +1,11 @@
+Name	ID
+Glycosaminoglycan_biosynthesis_-_keratan_sulfate	1
+Hepatitis_C	2
+Cytokine-cytokine_receptor_interaction	3
+Glycosphingolipid_biosynthesis_-_lacto_and_neolacto_series	4
+Jak-STAT_signaling_pathway	5
+Glyoxylate_and_dicarboxylate_metabolism	6
+Glycosphingolipid_biosynthesis_-_globo_series	7
+Tight_junction	8
+Thyroid_cancer	9
+Apoptosis	10
