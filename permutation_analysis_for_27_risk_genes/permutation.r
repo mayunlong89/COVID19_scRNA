@@ -7,7 +7,7 @@ getwd()
 setwd('C:\\Users\\MYL\\Desktop\\')
 set.seed(12345)
 
-data1 <- read.table("scaled_gene_permutation.txt",header = TRUE)
+data1 <- read.table("expressed_genes_scRNA.txt",header = TRUE)
 
 #set a threshold of scaled expression -0.3 for highly expressed genes or not
 data1$normal[which(data1$normal> -0.3)]<-1
