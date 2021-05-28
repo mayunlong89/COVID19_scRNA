@@ -16,7 +16,8 @@ In the current study, we downloaded three scRNA-seq datasets on COVID-19 and its
  ## 3. Scripts:
   In the present sutyd, we leveraged numerous bioinformatics tools： linux-based tools incluidng MAGMA, S-MultiXcan, R-based tools including Rolypoly and permutation, and web-access tools inclduing the WEB-based Gene SeT AnaLysis Toolkit (WebGestalt; http://www.webgestalt.org) [42], the PhenoScanner V2 (http://www.phenoscanner.medschl.cam.ac.uk/) [45],  the Open Target Genetics (OTG, https://genetics.opentargets.org/) [46], STRING(v11.0, https://string-db.org/)[51], STITCH (v5.0, http://stitch.embl.de/)[53],ChEMBL (v2.6, https://www.ebi.ac.uk/chembl/) [54], and DGIdb database (https://www.dgidb.org/druggable_gene_categories). 
   In order to ensure our peers could follow our analyses, we have deposited the codes and methods in the current github, as the following example:
-    #compute rolypoly
+```
+#compute rolypoly
 ######################
 library("rolypoly")
 library("data.table")
@@ -49,7 +50,7 @@ lapply(index,function(x){
    bootstrap_iters = 100
   )
   save(rolypoly_result,file = "/share/pub/dengcy/Singlecell/COVID19/1.rolypoly_result/rolypoly_mild_cell.RData")
-  
+```
 # Reference
 1.	Dong E, Du H, Gardner L: An interactive web-based dashboard to track COVID-19 in real time. Lancet Infect Dis 2020, 20:533-534.
 2.	Wu Z, McGoogan JM: Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72 314 Cases From the Chinese Center for Disease Control and Prevention. JAMA 2020.
