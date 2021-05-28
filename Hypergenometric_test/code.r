@@ -19,6 +19,20 @@ phyper(200,9024,2287,238,lower.tail = F)
 phyper(235,8988,2287,273,lower.tail = F)
 
 
+
+
+##############---2---##################
+#2. Hypergeometric test for CCR1+CD16+monocytes
+#Severe vs normal
+phyper(369,3634,1434,416,lower.tail = F)
+
+#Moderate vs normal
+phyper(586,6555,1434,633,lower.tail = F)
+
+#Mild vs normal
+phyper(162,4081,1434,209,lower.tail = F)
+
+
 #Druggable genes test
 
 tableR <- matrix(c(40,7,311,136),nrow=2,ncol=2)
@@ -35,20 +49,6 @@ phyper(40,351,143,47,lower.tail = F)
 
 #Hypergeometric test for COVID-19 associated druggable proteins
 phyper(22,351,143,25,lower.tail = F)
-
-
-
-##############---2---##################
-#2. Hypergeometric test for CCR1+CD16+monocytes
-#Severe vs normal
-phyper(369,3634,1434,416,lower.tail = F)
-
-#Moderate vs normal
-phyper(586,6555,1434,633,lower.tail = F)
-
-#Mild vs normal
-phyper(162,4081,1434,209,lower.tail = F)
-
 
 
 ##############---3---##################
