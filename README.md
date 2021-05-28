@@ -13,6 +13,43 @@ In the current study, we downloaded three scRNA-seq datasets on COVID-19 and its
 ## 2. GWAS summary statistics from the COVID-19 Host Genetic Consortium
   The meta-GWAS summary data on severe COVID-19 round 4 (B2_ALL, Susceptibility [Hospitalized COVID-19 vs. Population]) were downloaded from the official website of the COVID-19 Host Genetic Consortium [23] (https://www.covid19hg.org/; analyzed file named: “COVID19_HGI_B2_ALL_leave_23andme_20201020.txt.gz”; released date of October 4 2020). There were 7,885 hospitalized COVID-19 patients and 961,804 control participants from 21 independent contributing studies. The vast majority of participants in these contributing studies were of European ancestry (93%). The meta-GWAS summary statistics contained P values, Wald statistic, inverse-variance meta-analyzed log Odds Ratio (OR) and related standard errors. The 1,000 Genomes Project European Phase 3 [37] were used as a panel for pruning. Results from 23&Me cohort GWAS summary statistics were excluded from our current analysis. By filtering genetic variants without RefSNP number in the Human Genome reference builds 37, there were 9,368,170 genetic variants included with a major allele frequency (MAF) threshold of 0.0001 and the imputation score filter of 0.6. We used the qqman R package for figuring the Manhattan plot to visualize the meta-GWAS analysis results. The web-based software of LocusZoom [38] was utilized to visualize the regional association plots for identified risk loci (http://locuszoom.sph.umich.edu/).
   
+ ## 3. Scripts:
+  In the present sutyd, we leveraged numerous bioinformatics tools： linux-based tools incluidng MAGMA, S-MultiXcan, R-based tools including Rolypoly and permutation, and web-access tools inclduing the WEB-based Gene SeT AnaLysis Toolkit (WebGestalt; http://www.webgestalt.org) [42], the PhenoScanner V2 (http://www.phenoscanner.medschl.cam.ac.uk/) [45],  the Open Target Genetics (OTG, https://genetics.opentargets.org/) [46], STRING(v11.0, https://string-db.org/)[51], STITCH (v5.0, http://stitch.embl.de/)[53],ChEMBL (v2.6, https://www.ebi.ac.uk/chembl/) [54], and DGIdb database (https://www.dgidb.org/druggable_gene_categories). 
+  In order to ensure our peers could follow our analyses, we have deposited the codes and methods in the current github, as the following example:
+    #compute rolypoly
+######################
+library("rolypoly")
+library("data.table")
+#
+index<-c("normal","mild","moderate","severe")
+lapply(index,function(x){
+  file_n<-paste0("/share/pub/dengcy/Singlecell/COVID19/data/Rploy_",x,"_cell.txt")
+  merge_scexpr<-read.delim(file_n,sep = " ")
+  colnames(merge_scexpr)<-annotation$V2
+  merge_scexpr<-merge_scexpr[apply(merge_scexpr,1,sum)!=0,]
+  #create the annotation files
+  gene_name<-intersect(rownames(merge_scexpr),geneid_df1$label)
+  geneid_df1<-geneid_df1[geneid_df1$label %in% gene_name,]
+  merge_scexpr<-merge_scexpr[gene_name,]
+  geneid_df1<-geneid_df1[!duplicated(geneid_df1$label),]
+#############################################
+  file_na<-paste0("roly_",x,"_pre.RData")
+  save(geneid_df1,merge_scexpr,file=file_na)
+  })
+
+ ld_path <- "/share/pub/dengcy/Singlecell/COVID19/data/LD"
+
+#sim_block_annotation$label<-rownames(merge_scexprc2)[1:1000]
+#Rploy_remission_GSE.txt
+ rolypoly_result <- rolypoly_roll(
+   gwas_data = COVID19_GWAS_autosomes_maf2,
+   block_annotation = geneid_df1,
+   block_data = merge_scexpr,
+   ld_folder =ld_path,
+   bootstrap_iters = 100
+  )
+  save(rolypoly_result,file = "/share/pub/dengcy/Singlecell/COVID19/1.rolypoly_result/rolypoly_mild_cell.RData")
+  
 # Reference
 1.	Dong E, Du H, Gardner L: An interactive web-based dashboard to track COVID-19 in real time. Lancet Infect Dis 2020, 20:533-534.
 2.	Wu Z, McGoogan JM: Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72 314 Cases From the Chinese Center for Disease Control and Prevention. JAMA 2020.
