@@ -1,5 +1,5 @@
 # COVID19_scRNA
-Here we submitted codes and methods on the manuscript entitled "Genetic mapping single-cell landscape of the peripheral immune response in patients with severe COVID-19".
+Here we submitted codes and methods on the manuscript entitled "Single cell sequencing and GWAS analyses reveal genetics-influenced CD16+monocytes and memory CD8+T cells involved in severe COVID-19".
 
 # Abstract
 Background: Understanding the host genetic architecture and viral immunity contribute to develop effective vaccines and therapeutics for controlling the COVID-19 pandemic. Alterations of immune responses in peripheral blood mononuclear cells play a crucial role in the detrimental progression of COVID-19. To date, the effects of host genetic factors on peripheral immune response for severe COVID-19 remain largely unknown. 
