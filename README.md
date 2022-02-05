@@ -57,13 +57,16 @@ lapply(index,function(x){
   )
   save(rolypoly_result,file = "/share/pub/dengcy/Singlecell/COVID19/1.rolypoly_result/rolypoly_mild_cell.RData")
 ```
+
+
+
 # Reference
 1.	Dong E, Du H, Gardner L: An interactive web-based dashboard to track COVID-19 in real time. Lancet Infect Dis 2020, 20:533-534.
 2.	Wu Z, McGoogan JM: Characteristics of and Important Lessons From the Coronavirus Disease 2019 (COVID-19) Outbreak in China: Summary of a Report of 72 314 Cases From the Chinese Center for Disease Control and Prevention. JAMA 2020.
 3.	Berlin DA, Gulick RM, Martinez FJ: Severe Covid-19. N Engl J Med 2020.
 4.	Richardson S, Hirsch JS, Narasimhan M, Crawford JM, McGinn T, Davidson KW, Barnaby DP, Becker LB, Chelico JD, Cohen SL, et al: Presenting Characteristics, Comorbidities, and Outcomes Among 5700 Patients Hospitalized With COVID-19 in the New York City Area. JAMA 2020, 323:2052-2059.
 5.	Guan WJ, Ni ZY, Hu Y, Liang WH, Ou CQ, He JX, Liu L, Shan H, Lei CL, Hui DSC, et al: Clinical Characteristics of Coronavirus Disease 2019 in China. N Engl J Med 2020, 382:1708-1720.
-6.	Xu L, Ma Y, Yuan J, Zhang Y, Wang H, Zhang G, Tu C, Lu X, Li J, Xiong Y, et al: COVID-19 Quarantine Reveals Behavioral Changes Effect on Myopia Progression. Ophthalmology 2021.
+6.	Xu L, Ma Y, Yuan J, Zhang Y, Wang H, Zhang G, Tu C, Lu X, Li J, Xiong Y, et al: COVID-19 Quarantine Reveals That Behavioral Changes Have an Effect on Myopia Progression. Ophthalmology 2021.
 7.	Pedersen SF, Ho YC: SARS-CoV-2: a storm is raging. J Clin Invest 2020, 130:2202-2205.
 8.	Takahashi T, Ellingson MK, Wong P, Israelow B, Lucas C, Klein J, Silva J, Mao T, Oh JE, Tokuyama M, et al: Sex differences in immune responses that underlie COVID-19 disease outcomes. Nature 2020, 588:315-320.
 9.	Chen G, Wu D, Guo W, Cao Y, Huang D, Wang H, Wang T, Zhang X, Chen H, Yu H, et al: Clinical and immunological features of severe and moderate coronavirus disease 2019. J Clin Invest 2020, 130:2620-2629.
@@ -73,59 +76,83 @@ lapply(index,function(x){
 13.	Wen W, Su W, Tang H, Le W, Zhang X, Zheng Y, Liu X, Xie L, Li J, Ye J, et al: Immune cell profiling of COVID-19 patients in the recovery stage by single-cell sequencing. Cell Discov 2020, 6:31.
 14.	Zhang JY, Wang XM, Xing X, Xu Z, Zhang C, Song JW, Fan X, Xia P, Fu JL, Wang SY, et al: Single-cell landscape of immunological responses in patients with COVID-19. Nat Immunol 2020, 21:1107-1118.
 15.	Chua RL, Lukassen S, Trump S, Hennig BP, Wendisch D, Pott F, Debnath O, Thürmann L, Kurth F, Völker MT, et al: COVID-19 severity correlates with airway epithelium-immune cell interactions identified by single-cell analysis. Nat Biotechnol 2020, 38:970-979.
-16.	Delorey TM, Ziegler CGK, Heimberg G, Normand R, Yang Y, Segerstolpe A, Abbondanza D, Fleming SJ, Subramanian A, Montoro DT, et al: A single-cell and spatial atlas of autopsy tissues reveals pathology and cellular targets of SARS-CoV-2. bioRxiv 2021.
-17.	Silvin A, Chapuis N, Dunsmore G, Goubet AG, Dubuisson A, Derosa L, Almire C, Hénon C, Kosmider O, Droin N, et al: Elevated Calprotectin and Abnormal Myeloid Cell Subsets Discriminate Severe from Mild COVID-19. Cell 2020, 182:1401-1418 e1418.
-18.	Schulte-Schrepping J, Reusch N, Paclik D, Baßler K, Schlickeiser S, Zhang B, Krämer B, Krammer T, Brumhard S, Bonaguro L, et al: Severe COVID-19 Is Marked by a Dysregulated Myeloid Cell Compartment. Cell 2020, 182:1419-1440 e1423.
-19.	Lee JS, Park S, Jeong HW, Ahn JY, Choi SJ, Lee H, Choi B, Nam SK, Sa M, Kwon JS, et al: Immunophenotyping of COVID-19 and influenza highlights the role of type I interferons in development of severe COVID-19. Sci Immunol 2020, 5.
-20.	Cao X: COVID-19: immunopathology and its implications for therapy. Nat Rev Immunol 2020, 20:269-270.
-21.	Del Valle DM, Kim-Schulze S, Huang HH, Beckmann ND, Nirenberg S, Wang B, Lavin Y, Swartz TH, Madduri D, Stock A, et al: An inflammatory cytokine signature predicts COVID-19 severity and survival. Nat Med 2020, 26:1636-1643.
-22.	Arunachalam PS, Wimmers F, Mok CKP, Perera R, Scott M, Hagan T, Sigal N, Feng Y, Bristow L, Tak-Yin Tsang O, et al: Systems biological assessment of immunity to mild versus severe COVID-19 infection in humans. Science 2020, 369:1210-1220.
-23.	The COVID-19 Host Genetics Initiative, a global initiative to elucidate the role of host genetic factors in susceptibility and severity of the SARS-CoV-2 virus pandemic. Eur J Hum Genet 2020, 28:715-718.
-24.	Ellinghaus D, Degenhardt F, Bujanda L, Buti M, Albillos A, Invernizzi P, Fernández J, Prati D, Baselli G, Asselta R, et al: Genomewide Association Study of Severe Covid-19 with Respiratory Failure. N Engl J Med 2020.
-25.	Pathak GA, Singh K, Miller-Fleming TW, Wendt FR, Ehsan N, Hou K, Johnson R, Lu Z, Gopalan S, Yengo L, et al: Integrative analyses identify susceptibility genes underlying COVID-19 hospitalization. medRxiv 2020:2020.2012.2007.20245308.
-26.	Shelton JF, Shastri AJ, Ye C, Weldon CH, Filshtein-Somnez T, Coker D, Symons A, Esparza-Gordillo J, Aslibekyan S, Auton A: Trans-ethnic analysis reveals genetic and non-genetic associations with COVID-19 susceptibility and severity. medRxiv 2020:2020.2009.2004.20188318.
-27.	Roberts GHL, Park DS, Coignet MV, McCurdy SR, Knight SC, Partha R, Rhead B, Zhang M, Berkowitz N, Haug Baltzell AK, et al: AncestryDNA COVID-19 Host Genetic Study Identifies Three Novel Loci. medRxiv 2020:2020.2010.2006.20205864.
-28.	Zhou S, Butler-Laporte G, Nakanishi T, Morrison DR, Afilalo J, Afilalo M, Laurent L, Pietzner M, Kerrison N, Zhao K, et al: A Neanderthal OAS1 isoform protects individuals of European ancestry against COVID-19 susceptibility and severity. Nat Med 2021, 27:659-667.
-29.	Pairo-Castineira E, Clohisey S, Klaric L, Bretherick AD, Rawlik K, Pasko D, Walker S, Parkinson N, Fourman MH, Russell CD, et al: Genetic mechanisms of critical illness in COVID-19. Nature 2021, 591:92-98.
-30.	Ma Y, Huang Y, Zhao S, Yao Y, Zhang Y, Qu J, Wu N, Su J: Integrative Genomics Analysis Reveals a 21q22.11 Locus Contributing Risk to COVID-19. Hum Mol Genet 2021.
-31.	Gaziano L, Giambartolomei C, Pereira AC, Gaulton A, Posner DC, Swanson SA, Ho YL, Iyengar SK, Kosik NM, Vujkovic M, et al: Actionable druggable genome-wide Mendelian randomization identifies repurposing opportunities for COVID-19. Nat Med 2021, 27:668-676.
-32.	Orrù V, Steri M, Sidore C, Marongiu M, Serra V, Olla S, Sole G, Lai S, Dei M, Mulas A, et al: Complex genetic signatures in immune cells underlie autoimmunity and inform therapy. Nat Genet 2020, 52:1036-1045.
-33.	Roederer M, Quaye L, Mangino M, Beddall MH, Mahnke Y, Chattopadhyay P, Tosi I, Napolitano L, Terranova Barberio M, Menni C, et al: The genetic architecture of the human immune system: a bioresource for autoimmunity and disease pathogenesis. Cell 2015, 161:387-403.
-34.	Patin E, Hasan M, Bergstedt J, Rouilly V, Libri V, Urrutia A, Alanio C, Scepanovic P, Hammer C, Jönsson F, et al: Natural variation in the parameters of innate immune cells is preferentially driven by genetic factors. Nat Immunol 2018, 19:302-314.
-35.	Aguirre-Gamboa R, Joosten I, Urbano PCM, van der Molen RG, van Rijssen E, van Cranenbroek B, Oosting M, Smeekens S, Jaeger M, Zorro M, et al: Differential Effects of Environmental and Genetic Factors on T and B Cell Immune Traits. Cell Rep 2016, 17:2474-2487.
-36.	Organization WH: COVID-19 Theapeutic Trial Synopsis. (World Health Organization) 2020.
-37.	Auton A, Brooks LD, Durbin RM, Garrison EP, Kang HM, Korbel JO, Marchini JL, McCarthy S, McVean GA, Abecasis GR: A global reference for human genetic variation. Nature 2015, 526:68-74.
-38.	Pruim RJ, Welch RP, Sanna S, Teslovich TM, Chines PS, Gliedt TP, Boehnke M, Abecasis GR, Willer CJ: LocusZoom: regional visualization of genome-wide association scan results. Bioinformatics 2010, 26:2336-2337.
-39.	Calderon D, Bhaskar A, Knowles DA, Golan D, Raj T, Fu AQ, Pritchard JK: Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression. Am J Hum Genet 2017, 101:686-699.
-40.	Chang CC, Chow CC, Tellier LC, Vattikuti S, Purcell SM, Lee JJ: Second-generation PLINK: rising to the challenge of larger and richer datasets. Gigascience 2015, 4:7.
-41.	de Leeuw CA, Mooij JM, Heskes T, Posthuma D: MAGMA: generalized gene-set analysis of GWAS data. PLoS Comput Biol 2015, 11:e1004219.
-42.	Wang J, Duncan D, Shi Z, Zhang B: WEB-based GEne SeT AnaLysis Toolkit (WebGestalt): update 2013. Nucleic Acids Res 2013, 41:W77-83.
-43.	Kanehisa M, Goto S: KEGG: kyoto encyclopedia of genes and genomes. Nucleic Acids Res 2000, 28:27-30.
-44.	Ma Y, Li J, Xu Y, Wang Y, Yao Y, Liu Q, Wang M, Zhao X, Fan R, Chen J, et al: Identification of 34 genes conferring genetic and pharmacological risk for the comorbidity of schizophrenia and smoking behaviors. Aging (Albany NY) 2020, 12:2169-2225.
-45.	Staley JR, Blackshaw J, Kamat MA, Ellis S, Surendran P, Sun BB, Paul DS, Freitag D, Burgess S, Danesh J, et al: PhenoScanner: a database of human genotype-phenotype associations. Bioinformatics 2016, 32:3207-3209.
-46.	Ghoussaini M, Mountjoy E, Carmona M, Peat G, Schmidt EM, Hercules A, Fumis L, Miranda A, Carvalho-Silva D, Buniello A, et al: Open Targets Genetics: systematic identification of trait-associated genes using large-scale genetics and functional genomics. Nucleic Acids Res 2021, 49:D1311-d1320.
-47.	Barbeira AN, Dickinson SP, Bonazzola R, Zheng J, Wheeler HE, Torres JM, Torstenson ES, Shah KP, Garcia T, Edwards TL, et al: Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics. Nat Commun 2018, 9:1825.
-48.	Barbeira AN, Pividori M, Zheng J, Wheeler HE, Nicolae DL, Im HK: Integrating predicted transcriptome from multiple tissues improves association detection. PLoS Genet 2019, 15:e1007889.
-49.	Ma X, Wang P, Xu G, Yu F, Ma Y: Integrative genomics analysis of various omics data and networks identify risk genes and variants vulnerable to childhood-onset asthma. BMC Med Genomics 2020, 13:123.
-50.	Xu M, Li J, Xiao Z, Lou J, Pan X, Ma Y: Integrative genomics analysis identifies promising SNPs and genes implicated in tuberculosis risk based on multiple omics datasets. Aging (Albany NY) 2020, 12:19173-19220.
-51.	Ma Y, Huang Y, Zhao S, Yao Y, Zhang Y, Qu J, Wu N, Su J: Integrative Genomics Analysis Reveals a Novel 21q22.11 Locus Contributing to Susceptibility of COVID-19. medRxiv 2020:2020.2009.2016.20195685.
-52.	von Mering C, Huynen M, Jaeggi D, Schmidt S, Bork P, Snel B: STRING: a database of predicted functional associations between proteins. Nucleic Acids Res 2003, 31:258-261.
-53.	Shannon P, Markiel A, Ozier O, Baliga NS, Wang JT, Ramage D, Amin N, Schwikowski B, Ideker T: Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome Res 2003, 13:2498-2504.
-54.	Szklarczyk D, Santos A, von Mering C, Jensen LJ, Bork P, Kuhn M: STITCH 5: augmenting protein-chemical interaction networks with tissue and affinity data. Nucleic Acids Res 2016, 44:D380-384.
-55.	Gaulton A, Hersey A, Nowotka M, Bento AP, Chambers J, Mendez D, Mutowo P, Atkinson F, Bellis LJ, Cibrián-Uhalte E, et al: The ChEMBL database in 2017. Nucleic Acids Res 2017, 45:D945-d954.
-56.	Mathew D, Giles JR, Baxter AE, Oldridge DA, Greenplate AR, Wu JE, Alanio C, Kuri-Cervantes L, Pampena MB, D'Andrea K, et al: Deep immune profiling of COVID-19 patients reveals distinct immunotypes with therapeutic implications. Science 2020, 369.
-57.	Stuart T, Butler A, Hoffman P, Hafemeister C, Papalexi E, Mauck WM, 3rd, Hao Y, Stoeckius M, Smibert P, Satija R: Comprehensive Integration of Single-Cell Data. Cell 2019, 177:1888-1902.e1821.
-58.	Pairo-Castineira E, Clohisey S, Klaric L, Bretherick AD, Rawlik K, Pasko D, Walker S, Parkinson N, Fourman MH, Russell CD, et al: Genetic mechanisms of critical illness in Covid-19. Nature 2020.
-59.	Battle A, Brown CD, Engelhardt BE, Montgomery SB: Genetic effects on gene expression across human tissues. Nature 2017, 550:204-213.
-60.	Wang Q, Chen R, Cheng F, Wei Q, Ji Y, Yang H, Zhong X, Tao R, Wen Z, Sutcliffe JS, et al: A Bayesian framework that integrates multi-omics data and gene networks predicts risk genes from schizophrenia GWAS data. Nat Neurosci 2019, 22:691-699.
-61.	Ma Y, Li MD: Establishment of a Strong Link Between Smoking and Cancer Pathogenesis through DNA Methylation Analysis. Sci Rep 2017, 7:1811.
-62.	Zhu Z, Zhang F, Hu H, Bakshi A, Robinson MR, Powell JE, Montgomery GW, Goddard ME, Wray NR, Visscher PM, Yang J: Integration of summary data from GWAS and eQTL studies predicts complex trait gene targets. Nat Genet 2016, 48:481-487.
-63.	He X, Fuller CK, Song Y, Meng Q, Zhang B, Yang X, Li H: Sherlock: detecting gene-disease associations by matching patterns of expression QTL and GWAS. Am J Hum Genet 2013, 92:667-680.
-64.	Zhou P, Yang XL, Wang XG, Hu B, Zhang L, Zhang W, Si HR, Zhu Y, Li B, Huang CL, et al: A pneumonia outbreak associated with a new coronavirus of probable bat origin. Nature 2020, 579:270-273.
-65.	Lu R, Zhao X, Li J, Niu P, Yang B, Wu H, Wang W, Song H, Huang B, Zhu N, et al: Genomic characterisation and epidemiology of 2019 novel coronavirus: implications for virus origins and receptor binding. Lancet 2020, 395:565-574.
-66.	Wilk AJ, Rustagi A, Zhao NQ, Roque J, Martínez-Colón GJ, McKechnie JL, Ivison GT, Ranganath T, Vergara R, Hollis T, et al: A single-cell atlas of the peripheral immune response in patients with severe COVID-19. Nat Med 2020, 26:1070-1076.
-67.	Hadjadj J, Yatim N, Barnabei L, Corneau A, Boussier J, Smith N, Péré H, Charbit B, Bondet V, Chenevier-Gobeaux C, et al: Impaired type I interferon activity and inflammatory responses in severe COVID-19 patients. Science 2020, 369:718-724.
-68.	Merad M, Martin JC: Pathological inflammation in patients with COVID-19: a key role for monocytes and macrophages. Nat Rev Immunol 2020, 20:355-362.
-69.	Dimopoulos G, de Mast Q, Markou N, Theodorakopoulou M, Komnos A, Mouktaroudi M, Netea MG, Spyridopoulos T, Verheggen RJ, Hoogerwerf J, et al: Favorable Anakinra Responses in Severe Covid-19 Patients with Secondary Hemophagocytic Lymphohistiocytosis. Cell Host Microbe 2020, 28:117-123.e111.
-70.	Jamilloux Y, Henry T, Belot A, Viel S, Fauter M, El Jammal T, Walzer T, François B, Sève P: Should we stimulate or suppress immune responses in COVID-19? Cytokine and anti-cytokine interventions. Autoimmun Rev 2020, 19:102567.
+16.	Silvin A, Chapuis N, Dunsmore G, Goubet AG, Dubuisson A, Derosa L, Almire C, Hénon C, Kosmider O, Droin N, et al: Elevated Calprotectin and Abnormal Myeloid Cell Subsets Discriminate Severe from Mild COVID-19. Cell 2020, 182:1401-1418.e1418.
+17.	Schulte-Schrepping J, Reusch N, Paclik D, Baßler K, Schlickeiser S, Zhang B, Krämer B, Krammer T, Brumhard S, Bonaguro L, et al: Severe COVID-19 Is Marked by a Dysregulated Myeloid Cell Compartment. Cell 2020, 182:1419-1440 e1423.
+18.	Lee JS, Park S, Jeong HW, Ahn JY, Choi SJ, Lee H, Choi B, Nam SK, Sa M, Kwon JS, et al: Immunophenotyping of COVID-19 and influenza highlights the role of type I interferons in development of severe COVID-19. Sci Immunol 2020, 5.
+19.	Cao X: COVID-19: immunopathology and its implications for therapy. Nat Rev Immunol 2020, 20:269-270.
+20.	Del Valle DM, Kim-Schulze S, Huang HH, Beckmann ND, Nirenberg S, Wang B, Lavin Y, Swartz TH, Madduri D, Stock A, et al: An inflammatory cytokine signature predicts COVID-19 severity and survival. Nat Med 2020, 26:1636-1643.
+21.	Arunachalam PS, Wimmers F, Mok CKP, Perera R, Scott M, Hagan T, Sigal N, Feng Y, Bristow L, Tak-Yin Tsang O, et al: Systems biological assessment of immunity to mild versus severe COVID-19 infection in humans. Science 2020, 369:1210-1220.
+22.	The COVID-19 Host Genetics Initiative, a global initiative to elucidate the role of host genetic factors in susceptibility and severity of the SARS-CoV-2 virus pandemic. Eur J Hum Genet 2020, 28:715-718.
+23.	Zhou S, Butler-Laporte G, Nakanishi T, Morrison DR, Afilalo J, Afilalo M, Laurent L, Pietzner M, Kerrison N, Zhao K, et al: A Neanderthal OAS1 isoform protects individuals of European ancestry against COVID-19 susceptibility and severity. Nat Med 2021, 27:659-667.
+24.	Pairo-Castineira E, Clohisey S, Klaric L, Bretherick AD, Rawlik K, Pasko D, Walker S, Parkinson N, Fourman MH, Russell CD, et al: Genetic mechanisms of critical illness in COVID-19. Nature 2021, 591:92-98.
+25.	Ma Y, Huang Y, Zhao S, Yao Y, Zhang Y, Qu J, Wu N, Su J: Integrative Genomics Analysis Reveals a 21q22.11 Locus Contributing Risk to COVID-19. Hum Mol Genet 2021.
+26.	Gaziano L, Giambartolomei C, Pereira AC, Gaulton A, Posner DC, Swanson SA, Ho YL, Iyengar SK, Kosik NM, Vujkovic M, et al: Actionable druggable genome-wide Mendelian randomization identifies repurposing opportunities for COVID-19. Nat Med 2021, 27:668-676.
+27.	Ellinghaus D, Degenhardt F, Bujanda L, Buti M, Albillos A, Invernizzi P, Fernández J, Prati D, Baselli G, Asselta R, et al: Genomewide Association Study of Severe Covid-19 with Respiratory Failure. N Engl J Med 2020, 383:1522-1534.
+28.	Mapping the human genetic architecture of COVID-19. Nature 2021.
+29.	Ren X, Wen W, Fan X, Hou W, Su B, Cai P, Li J, Liu Y, Tang F, Zhang F, et al: COVID-19 immune features revealed by a large-scale single-cell transcriptome atlas. Cell 2021, 184:1895-1913.e1819.
+30.	10x Genomics. https://www10xgenomicscom/solutions/single-cell/.
+31.	Butler A, Hoffman P, Smibert P, Papalexi E, Satija R: Integrating single-cell transcriptomic data across different conditions, technologies, and species. Nat Biotechnol 2018, 36:411-420.
+32.	Waltman L, van Eck NJ: A smart local moving algorithm for large-scale modularity-based community detection. The European Physical Journal B 2013, 86:471.
+33.	Korsunsky I, Millard N, Fan J, Slowikowski K, Zhang F, Wei K, Baglaenko Y, Brenner M, Loh PR, Raychaudhuri S: Fast, sensitive and accurate integration of single-cell data with Harmony. Nat Methods 2019, 16:1289-1296.
+34.	Auton A, Brooks LD, Durbin RM, Garrison EP, Kang HM, Korbel JO, Marchini JL, McCarthy S, McVean GA, Abecasis GR: A global reference for human genetic variation. Nature 2015, 526:68-74.
+35.	Pruim RJ, Welch RP, Sanna S, Teslovich TM, Chines PS, Gliedt TP, Boehnke M, Abecasis GR, Willer CJ: LocusZoom: regional visualization of genome-wide association scan results. Bioinformatics 2010, 26:2336-2337.
+36.	de Leeuw CA, Mooij JM, Heskes T, Posthuma D: MAGMA: generalized gene-set analysis of GWAS data. PLoS Comput Biol 2015, 11:e1004219.
+37.	Wang J, Duncan D, Shi Z, Zhang B: WEB-based GEne SeT AnaLysis Toolkit (WebGestalt): update 2013. Nucleic Acids Res 2013, 41:W77-83.
+38.	Kanehisa M, Goto S: KEGG: kyoto encyclopedia of genes and genomes. Nucleic Acids Res 2000, 28:27-30.
+39.	Ma Y, Li J, Xu Y, Wang Y, Yao Y, Liu Q, Wang M, Zhao X, Fan R, Chen J, et al: Identification of 34 genes conferring genetic and pharmacological risk for the comorbidity of schizophrenia and smoking behaviors. Aging (Albany NY) 2020, 12:2169-2225.
+40.	Ma Y, Qiu F, Deng C, Li J, Huang Y, Wu Z, Zhou Y, Zhang Y, Xiong Y, Yao J, Zhong Y, Qu J, Su J.: Analyzed codes for the immune response of severe COVID-19 using scRNA-seq data. https://githubcom/mayunlong89/COVID19_scRNA 2022.
+41.	Barbeira AN, Dickinson SP, Bonazzola R, Zheng J, Wheeler HE, Torres JM, Torstenson ES, Shah KP, Garcia T, Edwards TL, et al: Exploring the phenotypic consequences of tissue specific gene expression variation inferred from GWAS summary statistics. Nat Commun 2018, 9:1825.
+42.	Barbeira AN, Bonazzola R, Gamazon ER, Liang Y, Park Y, Kim-Hellmuth S, Wang G, Jiang Z, Zhou D, Hormozdiari F, et al: Exploiting the GTEx resources to decipher the mechanisms at GWAS loci. Genome Biol 2021, 22:49.
+43.	Barbeira AN, Pividori M, Zheng J, Wheeler HE, Nicolae DL, Im HK: Integrating predicted transcriptome from multiple tissues improves association detection. PLoS Genet 2019, 15:e1007889.
+44.	Ma X, Wang P, Xu G, Yu F, Ma Y: Integrative genomics analysis of various omics data and networks identify risk genes and variants vulnerable to childhood-onset asthma. BMC Med Genomics 2020, 13:123.
+45.	Xu M, Li J, Xiao Z, Lou J, Pan X, Ma Y: Integrative genomics analysis identifies promising SNPs and genes implicated in tuberculosis risk based on multiple omics datasets. Aging (Albany NY) 2020, 12:19173-19220.
+46.	von Mering C, Huynen M, Jaeggi D, Schmidt S, Bork P, Snel B: STRING: a database of predicted functional associations between proteins. Nucleic Acids Res 2003, 31:258-261.
+47.	Szklarczyk D, Santos A, von Mering C, Jensen LJ, Bork P, Kuhn M: STITCH 5: augmenting protein-chemical interaction networks with tissue and affinity data. Nucleic Acids Res 2016, 44:D380-384.
+48.	Cotto KC, Wagner AH, Feng YY, Kiwala S, Coffman AC, Spies G, Wollam A, Spies NC, Griffith OL, Griffith M: DGIdb 3.0: a redesign and expansion of the drug-gene interaction database. Nucleic Acids Res 2018, 46:D1068-d1073.
+49.	Calderon D, Bhaskar A, Knowles DA, Golan D, Raj T, Fu AQ, Pritchard JK: Inferring Relevant Cell Types for Complex Traits by Using Single-Cell Gene Expression. Am J Hum Genet 2017, 101:686-699.
+50.	Chang CC, Chow CC, Tellier LC, Vattikuti S, Purcell SM, Lee JJ: Second-generation PLINK: rising to the challenge of larger and richer datasets. Gigascience 2015, 4:7.
+51.	Puram SV, Tirosh I, Parikh AS, Patel AP, Yizhak K, Gillespie S, Rodman C, Luo CL, Mroz EA, Emerick KS, et al: Single-Cell Transcriptomic Analysis of Primary and Metastatic Tumor Ecosystems in Head and Neck Cancer. Cell 2017, 171:1611-1624.e1624.
+52.	Fajgenbaum DC, June CH: Cytokine Storm. N Engl J Med 2020, 383:2255-2273.
+53.	Jin S, Guerrero-Juarez CF, Zhang L, Chang I, Ramos R, Kuan CH, Myung P, Plikus MV, Nie Q: Inference and analysis of cell-cell communication using CellChat. Nat Commun 2021, 12:1088.
+54.	Büttner M, Ostner J, Müller CL, Theis FJ, Schubert B: scCODA is a Bayesian model for compositional single-cell data analysis. Nat Commun 2021, 12:6876.
+55.	Thomson W, Jabbari S, Taylor A, Arlt W, Smith D: Simultaneous parameter estimation and variable selection via the logit-normal continuous analogue of the spike-and-slab prior. Journal of the Royal Society Interface 2019, 16:20180572.
+56.	Aitchison J: The statistical analysis of compositional data. Journal of the Royal Statistical Society: Series B (Methodological) 1982, 44:139-160.
+57.	Ghoussaini M, Mountjoy E, Carmona M, Peat G, Schmidt EM, Hercules A, Fumis L, Miranda A, Carvalho-Silva D, Buniello A, et al: Open Targets Genetics: systematic identification of trait-associated genes using large-scale genetics and functional genomics. Nucleic Acids Res 2021, 49:D1311-d1320.
+58.	Battle A, Brown CD, Engelhardt BE, Montgomery SB: Genetic effects on gene expression across human tissues. Nature 2017, 550:204-213.
+59.	Wang Q, Chen R, Cheng F, Wei Q, Ji Y, Yang H, Zhong X, Tao R, Wen Z, Sutcliffe JS, et al: A Bayesian framework that integrates multi-omics data and gene networks predicts risk genes from schizophrenia GWAS data. Nat Neurosci 2019, 22:691-699.
+60.	Ma Y, Li MD: Establishment of a Strong Link Between Smoking and Cancer Pathogenesis through DNA Methylation Analysis. Sci Rep 2017, 7:1811.
+61.	Auwul MR, Rahman MR, Gov E, Shahjaman M, Moni MA: Bioinformatics and machine learning approach identifies potential drug targets and pathways in COVID-19. Brief Bioinform 2021.
+62.	More SA, Patil AS, Sakle NS, Mokale SN: Network analysis and molecular mapping for SARS-CoV-2 to reveal drug targets and repurposing of clinically developed drugs. Virology 2021, 555:10-18.
+63.	Bryois J, Skene NG, Hansen TF, Kogelman LJA, Watson HJ, Liu Z, Brueggeman L, Breen G, Bulik CM, Arenas E, et al: Genetic identification of cell types underlying brain complex traits yields insights into the etiology of Parkinson's disease. Nat Genet 2020, 52:482-493.
+64.	Cortal A, Martignetti L, Six E, Rausell A: Gene signature extraction and cell identity recognition at the single-cell level with Cell-ID. Nat Biotechnol 2021, 39:1095-1102.
+65.	Manne BK, Denorme F, Middleton EA, Portier I, Rowley JW, Stubben C, Petrey AC, Tolley ND, Guo L, Cody M, et al: Platelet gene expression and function in patients with COVID-19. Blood 2020, 136:1317-1329.
+66.	Shaath H, Vishnubalaji R, Elkord E, Alajez NM: Single-Cell Transcriptome Analysis Highlights a Role for Neutrophils and Inflammatory Macrophages in the Pathogenesis of Severe COVID-19. Cells 2020, 9.
+67.	Rydyznski Moderbacher C, Ramirez SI, Dan JM, Grifoni A, Hastie KM, Weiskopf D, Belanger S, Abbott RK, Kim C, Choi J, et al: Antigen-Specific Adaptive Immunity to SARS-CoV-2 in Acute COVID-19 and Associations with Age and Disease Severity. Cell 2020, 183:996-1012.e1019.
+68.	King KR, Aguirre AD, Ye YX, Sun Y, Roh JD, Ng RP, Jr., Kohler RH, Arlauckas SP, Iwamoto Y, Savol A, et al: IRF3 and type I interferons fuel a fatal response to myocardial infarction. Nat Med 2017, 23:1481-1487.
+69.	Hadjadj J, Yatim N, Barnabei L, Corneau A, Boussier J, Smith N, Péré H, Charbit B, Bondet V, Chenevier-Gobeaux C, et al: Impaired type I interferon activity and inflammatory responses in severe COVID-19 patients. Science 2020, 369:718-724.
+70.	Lippi G, Plebani M, Henry BM: Thrombocytopenia is associated with severe coronavirus disease 2019 (COVID-19) infections: A meta-analysis. Clin Chim Acta 2020, 506:145-148.
+71.	Ma C, Cheung AF, Chodon T, Koya RC, Wu Z, Ng C, Avramis E, Cochran AJ, Witte ON, Baltimore D, et al: Multifunctional T-cell analyses to study response and progression in adoptive cell transfer immunotherapy. Cancer Discov 2013, 3:418-429.
+72.	Akondy RS, Fitch M, Edupuganti S, Yang S, Kissick HT, Li KW, Youngblood BA, Abdelsamed HA, McGuire DJ, Cohen KW, et al: Origin and differentiation of human memory CD8 T cells after vaccination. Nature 2017, 552:362-367.
+73.	Andrade F, Fellows E, Jenne DE, Rosen A, Young CS: Granzyme H destroys the function of critical adenoviral proteins required for viral DNA replication and granzyme B inhibition. Embo j 2007, 26:2148-2157.
+74.	Li Y, Hou G, Zhou H, Wang Y, Tun HM, Zhu A, Zhao J, Xiao F, Lin S, Liu D, et al: Multi-platform omics analysis reveals molecular signature for COVID-19 pathogenesis, prognosis and drug target discovery. Signal Transduct Target Ther 2021, 6:155.
+75.	Bruchez A, Sha K, Johnson J, Chen L, Stefani C, McConnell H, Gaucherand L, Prins R, Matreyek KA, Hume AJ, et al: MHC class II transactivator CIITA induces cell resistance to Ebola virus and SARS-like coronaviruses. Science 2020, 370:241-247.
+76.	Wein AN, McMaster SR, Takamura S, Dunbar PR, Cartwright EK, Hayward SL, McManus DT, Shimaoka T, Ueha S, Tsukui T, et al: CXCR6 regulates localization of tissue-resident memory CD8 T cells to the airways. J Exp Med 2019, 216:2748-2762.
+77.	Takamura S, Kato S, Motozono C, Shimaoka T, Ueha S, Matsuo K, Miyauchi K, Masumoto T, Katsushima A, Nakayama T, et al: Interstitial-resident memory CD8(+) T cells sustain frontline epithelial memory in the lung. J Exp Med 2019, 216:2736-2747.
+78.	Zhao J, Yang Y, Huang H, Li D, Gu D, Lu X, Zhang Z, Liu L, Liu T, Liu Y, et al: Relationship between the ABO Blood Group and the COVID-19 Susceptibility. Clin Infect Dis 2020.
+79.	Klok FA, Kruip M, van der Meer NJM, Arbous MS, Gommers D, Kant KM, Kaptein FHJ, van Paassen J, Stals MAM, Huisman MV, Endeman H: Incidence of thrombotic complications in critically ill ICU patients with COVID-19. Thromb Res 2020, 191:145-147.
+80.	Grillet F, Behr J, Calame P, Aubry S, Delabrousse E: Acute Pulmonary Embolism Associated with COVID-19 Pneumonia Detected with Pulmonary CT Angiography. Radiology 2020, 296:E186-e188.
+81.	Poran A, Harjanto D, Malloy M, Arieta CM, Rothenberg DA, Lenkala D, van Buuren MM, Addona TA, Rooney MS, Srinivasan L, Gaynor RB: Sequence-based prediction of SARS-CoV-2 vaccine targets using a mass spectrometry-based bioinformatics predictor identifies immunogenic T cell epitopes. Genome Med 2020, 12:70.
+82.	Soudja SM, Ruiz AL, Marie JC, Lauvau G: Inflammatory monocytes activate memory CD8(+) T and innate NK lymphocytes independent of cognate antigen during microbial pathogen invasion. Immunity 2012, 37:549-562.
+83.	Ziegler-Heitbrock L: The CD14+ CD16+ blood monocytes: their role in infection and inflammation. J Leukoc Biol 2007, 81:584-592.
+84.	Kawanaka N, Yamamura M, Aita T, Morita Y, Okamoto A, Kawashima M, Iwahashi M, Ueno A, Ohmoto Y, Makino H: CD14+,CD16+ blood monocytes and joint inflammation in rheumatoid arthritis. Arthritis Rheum 2002, 46:2578-2586.
+85.	Hambleton S, Goodbourn S, Young DF, Dickinson P, Mohamad SM, Valappil M, McGovern N, Cant AJ, Hackett SJ, Ghazal P, et al: STAT2 deficiency and susceptibility to viral illness in humans. Proc Natl Acad Sci U S A 2013, 110:3053-3058.
+86.	Samji T, Khanna KM: Understanding memory CD8(+) T cells. Immunol Lett 2017, 185:32-39.
+87.	Nie Z, Hu G, Wei G, Cui K, Yamane A, Resch W, Wang R, Green DR, Tessarollo L, Casellas R, et al: c-Myc is a universal amplifier of expressed genes in lymphocytes and embryonic stem cells. Cell 2012, 151:68-79.
+88.	Jouan Y, Guillon A, Gonzalez L, Perez Y, Boisseau C, Ehrmann S, Ferreira M, Daix T, Jeannet R, François B, et al: Phenotypical and functional alteration of unconventional T cells in severe COVID-19 patients. J Exp Med 2020, 217.
+89.	Finucane HK, Reshef YA, Anttila V, Slowikowski K, Gusev A, Byrnes A, Gazal S, Loh PR, Lareau C, Shoresh N, et al: Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types. Nat Genet 2018, 50:621-629.
+90.	Xiang B, Deng C, Qiu F, Li J, Li S, Zhang H, Lin X, Huang Y, Zhou Y, Su J, et al: Single cell sequencing analysis identifies genetics-modulated ORMDL3+ cholangiocytes having higher metabolic effects on primary biliary cholangitis. Journal of Nanobiotechnology 2021, 19:406.
+91.	Lv Y, Huang Y, Xu X, Wang Z, Yu Y, Ma Y, Wu M: Integrated multi-omics data analysis identifies a novel genetics-risk gene of IRF4 associated with prognosis of oral cavity cancer. medRxiv; 2021.
+92.	Dong Z, Ma Y, Zhou H, Shi L, Ye G, Yang L, Liu P, Zhou L: Integrated genomics analysis highlights important SNPs and genes implicated in moderate-to-severe asthma based on GWAS and eQTL datasets. BMC Pulm Med 2020, 20:270.
+93.	Psychiatric genome-wide association study analyses implicate neuronal, immune and histone pathways. Nat Neurosci 2015, 18:199-209.
+94.	Bulik-Sullivan BK, Loh PR, Finucane HK, Ripke S, Yang J, Patterson N, Daly MJ, Price AL, Neale BM: LD Score regression distinguishes confounding from polygenicity in genome-wide association studies. Nat Genet 2015, 47:291-295.
 
