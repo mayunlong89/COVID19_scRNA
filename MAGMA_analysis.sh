@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-#MAGMA analysis: GWAS on severe COVID-19 downloaed from COVID-19 Initiative Consortium 
+#MAGMA: gene-level association analysis and gene-set enrichment analysis
+#GWAS on severe COVID-19 downloaed from COVID-19 Initiative Consortium 
 #File name: COVID19_HGI_B2_ALL_leave_23andme_20201020.txt.gz.
 #File location: cd /share/pub/mayl/01_COVID19_GWAS_round4/
 #nohup grep -v "NA" COVID19_HGI_B2_ALL_leave_23andme_20201020.b37.txt > COVID19_HGI_B2_ALL_leave_23andme_b37_new.txt &
