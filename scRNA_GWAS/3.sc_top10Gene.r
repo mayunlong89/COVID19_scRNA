@@ -1,5 +1,5 @@
 ###############
-#Compute the top10 genes for diffirent traits based on singel cells
+#Compute the top10 genes for different traits based on singel cells
 #################
 library(tidyverse)
 library("rhdf5")
