@@ -1,6 +1,6 @@
 ## Analyzed codes for the immune response of severe COVID-19 using scRNA-seq data
 
-Here we submitted codes and methods on the manuscript entitled "Integrating single cell sequencing data with GWAS summary statistics reveals CD16+ monocytes and memory CD8+T cells involved in severe COVID-19".
+Here we submitted codes and methods on the manuscript entitled "Integrating single cell sequencing data with GWAS summary statistics reveals CD16+ monocytes and memory CD8+T cells involved in severe COVID-19", which has been published in [Genome Medicine, 2022](https://link.springer.com/article/10.1186/s13073-022-01021-1).
 
 # Abstract
 Background: Understanding the host genetic architecture and viral immunity contributes to the development of effective vaccines and therapeutics for controlling the COVID-19 pandemic. Alterations of immune responses in peripheral blood mononuclear cells play a crucial role in the detrimental progression of COVID-19. However, the effects of host genetic factors on immune responses for severe COVID-19 remain largely unknown. 
@@ -57,6 +57,8 @@ lapply(index,function(x){
   )
   save(rolypoly_result,file = "/share/pub/dengcy/Singlecell/COVID19/1.rolypoly_result/rolypoly_mild_cell.RData")
 ```
+
+Please Cited: Ma et al., Integrating single-cell sequencing data with GWAS summary statistics reveals CD16+monocytes and memory CD8+T cells involved in severe COVID-19. Genome Medicine, 2022 Feb 17;14(1):16. [doi: 10.1186/s13073-022-01021-1](https://pubmed.ncbi.nlm.nih.gov/35172892/).
 
 # Availability of data and materials
 All the GWAS summary statistics used in this study can be accessed in the official websites (www.covid19hg.org/results) [22]. The GTEx eQTL data (version 8) were downloaded from Zenodo repository (https://zenodo.org/record/3518299#.Xv6Z6igzbgl) [42]. Four scRNA-seq datasets were downloaded from the GEO database (https://www.ncbi.nlm.nih.gov/gds/?term=GSE149689 [18], https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158055 [29], and https://www.ncbi.nlm.nih.gov/gds/?term=GSE150861 [11]) and the ArrayExpress database (https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-9357) [10]. All analyzed codes for hypergenometric analysis, hierarchical clustering analysis, in silico permutation analysis, S-PrediXcan, S-MultiXcan, MDS, MAGMA, RolyPoly, scCODA, Cell-ID, and CellChat analysis in the Methods are available in an online GitHub repository at https://github.com/mayunlong89/COVID19_scRNA [40]. 
