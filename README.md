@@ -1,14 +1,11 @@
+
+scIRE（single-cell Immune Risk Evaluation）framework 
+
+
 ## Analyzed codes for the immune response of severe COVID-19 using scRNA-seq data
 
 Here we submitted codes and methods on the manuscript entitled "Integrating single cell sequencing data with GWAS summary statistics reveals CD16+ monocytes and memory CD8+T cells involved in severe COVID-19", which has been published in [Genome Medicine, 2022](https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-022-01021-1).
 
-
-# All COVID-19-related projects in our group:
-1) Meta-analysis of large-scale GWAS data to uncover novel loci for COVID-19. see [Ma et al. Human Molecular Genetics, 2021](https://academic.oup.com/hmg/article/30/13/1247/6265026), and see related [Github codes](https://github.com/mayunlong89/Host_genetics_for_COVID-19).
-2) COVID-19 Quarantine Reveals That Behavioral Changes Have an Effect on Myopia Progression. see [Xu, Ma et al. Ophthalmology, 2021](https://www.sciencedirect.com/science/article/pii/S0161642021002578), see related [Github codes](https://github.com/mayunlong89/MIES).
-3) Identification of genetics-influenced immune cell sub-populations relevant to severe COVID-19. see [Ma et al. Genome Medicine, 2022](https://link.springer.com/article/10.1186/s13073-022-01021-1), and see related [Github codes](https://github.com/mayunlong89/COVID19_scRNA).
-4) Repurposing cell type-specific durg targets for severe COVID-19 based on human organoids scRNA-seq atlas. see [Ma et al. Cell Proliferation, 2023](https://onlinelibrary.wiley.com/doi/full/10.1111/cpr.13558), and see related [Github codes](https://github.com/mayunlong89/scHuman_organoids_COVID19)
-5) Development of novel polygenic regression method scPagwas for integrating scRNA-seq data with GWAS on complex diseases. see [Ma et al. Cell Genomics, 2023](https://www.cell.com/cell-genomics/fulltext/S2666-979X(23)00180-5), and see related [Github codes](https://github.com/mayunlong89/scPagwas_main)
 
 # Abstract
 Background: Understanding the host genetic architecture and viral immunity contributes to the development of effective vaccines and therapeutics for controlling the COVID-19 pandemic. Alterations of immune responses in peripheral blood mononuclear cells play a crucial role in the detrimental progression of COVID-19. However, the effects of host genetic factors on immune responses for severe COVID-19 remain largely unknown. 
@@ -68,6 +65,16 @@ lapply(index,function(x){
 ```
 
 Please Cited: Ma et al., Integrating single-cell sequencing data with GWAS summary statistics reveals CD16+monocytes and memory CD8+T cells involved in severe COVID-19. Genome Medicine, 2022 Feb 17;14(1):16. [doi: 10.1186/s13073-022-01021-1](https://link.springer.com/article/10.1186/s13073-022-01021-1).
+
+
+
+# All COVID-19-related projects in our group:
+1) Meta-analysis of large-scale GWAS data to uncover novel loci for COVID-19. see [Ma et al. Human Molecular Genetics, 2021](https://academic.oup.com/hmg/article/30/13/1247/6265026), and see related [Github codes](https://github.com/mayunlong89/Host_genetics_for_COVID-19).
+2) COVID-19 Quarantine Reveals That Behavioral Changes Have an Effect on Myopia Progression. see [Xu, Ma et al. Ophthalmology, 2021](https://www.sciencedirect.com/science/article/pii/S0161642021002578), see related [Github codes](https://github.com/mayunlong89/MIES).
+3) Identification of genetics-influenced immune cell sub-populations relevant to severe COVID-19. see [Ma et al. Genome Medicine, 2022](https://link.springer.com/article/10.1186/s13073-022-01021-1), and see related [Github codes](https://github.com/mayunlong89/COVID19_scRNA).
+4) Repurposing cell type-specific durg targets for severe COVID-19 based on human organoids scRNA-seq atlas. see [Ma et al. Cell Proliferation, 2023](https://onlinelibrary.wiley.com/doi/full/10.1111/cpr.13558), and see related [Github codes](https://github.com/mayunlong89/scHuman_organoids_COVID19)
+5) Development of novel polygenic regression method scPagwas for integrating scRNA-seq data with GWAS on complex diseases. see [Ma et al. Cell Genomics, 2023](https://www.cell.com/cell-genomics/fulltext/S2666-979X(23)00180-5), and see related [Github codes](https://github.com/mayunlong89/scPagwas_main)
+
 
 # Availability of data and materials
 All the GWAS summary statistics used in this study can be accessed in the official websites (www.covid19hg.org/results) [22]. The GTEx eQTL data (version 8) were downloaded from Zenodo repository (https://zenodo.org/record/3518299#.Xv6Z6igzbgl) [42]. Four scRNA-seq datasets were downloaded from the GEO database (https://www.ncbi.nlm.nih.gov/gds/?term=GSE149689 [18], https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE158055 [29], and https://www.ncbi.nlm.nih.gov/gds/?term=GSE150861 [11]) and the ArrayExpress database (https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-9357) [10]. All analyzed codes for hypergenometric analysis, hierarchical clustering analysis, in silico permutation analysis, S-PrediXcan, S-MultiXcan, MDS, MAGMA, RolyPoly, scCODA, Cell-ID, and CellChat analysis in the Methods are available in an online GitHub repository at https://github.com/mayunlong89/COVID19_scRNA [40]. 
